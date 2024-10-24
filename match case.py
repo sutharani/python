@@ -18,14 +18,14 @@
 #         print("30 days in a month")   
      
 
-ch=input("Enter the character:")
-match ch.lower():
-    case "a" |"e" |"i" |"o"|"u":
-        print("entered character is vowel")
-    case "b"|"c"|"d"|"f"|"g"|"h"|"J"|"K"|"L"|"m"|"n"|"p"|"q"|"r"|"s"|"t"|"v"|"w"|"x"|"y"|"z":
-        print("entered character is consosnants")    
-    case _:
-        print("entered input is Not vowels or consonant")    
+# ch=input("Enter the character:")
+# match ch.lower():
+#     case "a" |"e" |"i" |"o"|"u":
+#         print("entered character is vowel")
+#     case "b"|"c"|"d"|"f"|"g"|"h"|"J"|"K"|"L"|"m"|"n"|"p"|"q"|"r"|"s"|"t"|"v"|"w"|"x"|"y"|"z":
+#         print("entered character is consosnants")    
+#     case _:
+#         print("entered input is Not vowels or consonant")    
 
 
 # month=input("Enter the month:")

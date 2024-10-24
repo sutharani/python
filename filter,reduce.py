@@ -43,17 +43,107 @@
 #         return True
 # print(list(filter(letters))) 
 # 
-# 
-# 
-# Square  all numbers in a list
-def square (x):
-     numbers=[1,2,3,4,5]
-     square
-    
-     
-     square=sum(i**2)       
-print(list(square))
 
+# Square all numbers in a list
+# def square(x):
+#     return x*x
+# numbers=[1,2,3,4,5]
+# square=map(square,numbers)
+# print(list(square))
+
+# convert all string in a list to uppercase
+# def upper_case(string):
+#     return list(map(lambda x:x.upper(),string))
+# print(upper_case(["all","is","well"]))
+
+
+# Add 10 to each number in a list
+# def add(list):
+#     return list+10
+# numbers=[1,2,3,4,5]
+# print(list(map(add,numbers)))
+
+
+# Double each number in a list
+# def double(list):
+#     return list*2
+# x=[1,2,3,4,5]
+# result=list(map(double,x))
+# print(result)
+
+
+#Capitalize the first letter of each string in a list
+# def capitalize(string):
+#   return string.capitalize()
+# string=["hello"]
+# print(list(map(capitalize,string)))
+
+   
+#Find the product of allnumbers in a list
+# def prod(x,y):
+#     return x*y
+# list=[1,2,3,4,5]
+# from functools import reduce
+# print(reduce(prod,list))
+
+
+
+# Find the maximum number in a list
+# from functools import reduce
+# numbers=[1,2,3,4,5]
+# max=reduce(lambda x,y:x if x>y else y,numbers)
+# print(max)
+
+
+
+
+# Compute the sum of square of number in a list
+# from functools import reduce
+# def sum_square(x,y):
+#     return(x*x +y*y)
+# mylist=[1,2,3,4,5]
+# print(reduce(sum_square,mylist))
+
+
+
+# Compute the factorial of a number using reduce
+# from functools import reduce
+# def factorial(n):
+#     if n==0:
+#         return 1
+#     else:
+#         return reduce(lambda x,y:x*y,range(1,n+1))
+# print(factorial(3))   
+# 
+# 
+# 
+##### RANDOM
+# import random
+# n=random.randrange(1,5)
+# guess=int(input("Enter a number:")) 
+# if guess <n:
+#         print("your guessing wrong:")
+#         guess=int(input("enter number again:"))
+# elif guess>n:
+#         print("too high try again:")
+#         guess=int(input("enter number again:"))
+# else:
+#  print("you guessed  right")  
+
+# 
+# 
+# 
+#           
+
+                
+            
+
+
+
+
+
+
+    
 
 
 
