@@ -35,14 +35,13 @@
 # filtered_list=[x for x in string if len(x)<4]
 # print(list(filtered_list))
 
-# Filter out strings containing the letter "a"   doubt
-# letters=["a","b","c","d","e"]
-# def filter(letter):
-#     x="a"
-#     if(letter in x):
-#         return True
-# print(list(filter(letters))) 
-# 
+# Filter out strings containing the letter "a" 
+# string=["apple","banana","cherry","fig"]
+# filtered_strings=[s for s in string if "a" not in string]
+# print(filtered_strings)
+
+
+
 
 # Square all numbers in a list
 # def square(x):
@@ -50,6 +49,8 @@
 # numbers=[1,2,3,4,5]
 # square=map(square,numbers)
 # print(list(square))
+
+
 
 # convert all string in a list to uppercase
 # def upper_case(string):
@@ -128,12 +129,47 @@
 #         print("too high try again:")
 #         guess=int(input("enter number again:"))
 # else:
-#  print("you guessed  right")  
+#  print("you guessed  right") 
+ 
+ 
+ 
 
-# 
-# 
-# 
-#           
+# import random
+# mylist=[1,2,3,4,5]
+# while True:
+#     correct_number=random.choice(mylist)
+#     print("Try to guess it")
+#     while True:
+#         user_input=input("Guess a number from 1to 5:")
+#         if user_input.isdigit():
+#             user_input=int(user_input)
+#             if user_input==correct_number:
+#                 print("Your guessing is correct!")
+#                 break
+#             else:
+#                 print("your guessing is wrong.try again")
+#         else:
+#             print("please enter a valid number")
+#             play_again=input("Do you want to play again?(yes/no)").strip().lower()
+#             if play_again!="yes":
+#                 print("Thanks for playing!")
+#                 break
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
 
                 
             

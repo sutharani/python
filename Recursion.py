@@ -6,7 +6,7 @@
 # display(10)            
 
 
-# Print 1 to 10
+# # Print 1 to 10
 # def display(n):
 #     if n>0:
 #         display(n-1)

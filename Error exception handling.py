@@ -2,13 +2,13 @@
 # Handle the exception if the user input zero
 # try:
 #     num=int(input("Enter a number:"))
-#     num==0
-# except:
-#     print("zero is not allowed")
-# else:    
 #     reciprocal=1/num
-#     print(reciprocal)
-
+#     print("The reciprocal of",num,"is",reciprocal)
+# except ZeroDivisionError:
+#    print("cannot divide by zero")   
+# except ValueError:
+#    print("please enter a valid number")    
+   
 
 
 # Write a program that reads a numberfrom the user and prints its square.
@@ -17,8 +17,8 @@
 #     num=int(input("Enter a number:"))
 #     result=(num**2)
 #     print("The result is:",result)
-# except ZeroDivisionError:
-#     print("not allowed by negative number")
+# except Exception as e:
+#     print(e,"exception") 
 # else:
 #     print("success")
 
@@ -26,21 +26,32 @@
 
 
 # Write a function that raises a ValueError if the input number is negative
+# def check_positive(number):
+#     if number<0:
+#         raise ValueError("Input number must be positive")
+#     return number
 # try:
-#     number1=int(input("Enter a number:"))
-#     number2=int(input("Enter a number:"))
-#     result=number1+number2
-#     print(result)
-# except ValueError:
-#     print("Error occurred please enter a valid number")  
- 
- 
+#     user_input=int(input("Enter a positive number:"))
+#     check_positive(user_input)
+#     print("you entered:",user_input)
+# except ValueError as e:
+#     print(e,"exception")    
+
+
+
+
+
+
 # MOdify the above program to also handle the exception if the user inputs a non-numeric value 
 # try:
 #      a=int(input("Enter a number:"))
 #      print(a)
-# except ValueError:
-#     print("This is not a number try again")
+  
+# #except ValueError:
+#    # print("please enter a valid number")    
+   
+# except Exception as e:
+#     print("e,exception")
 
 
 
@@ -53,6 +64,8 @@
 #     print("The result is:",result)
 # except ZeroDivisionError:
 #     print("not allowed ny negative number")
+# except Exception as e:
+#      print(e,"exception") 
 # else:
 #     print("success")
 # finally:
@@ -69,18 +82,24 @@
 #         break
 #     except ValueError:
 #         print("invalid number Try again")
+#     except Exception as e:
+#         print(e,"exception")    
+    
+        
+    
+
     
 
 
-
-
-
-
-
-
-
-
-
+# try:
+#     num1=int(input("enter a number:"))
+#     num2=int(input("enter a number:"))
+#     res=num1/num2
+#     print(res)
+# #except ZeroDivisionError:
+#  #print("exception occur")
+# except Exception as e:
+#     print(e,"exception")    
 
 
 
@@ -89,7 +108,7 @@
 
 
     
-
+  
     
 
 
