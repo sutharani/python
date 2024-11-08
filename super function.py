@@ -33,36 +33,31 @@
 
 
 # Class c having display function have to inherit class a and class b constructor
-class A:
-    def __init__(self,grade):
-        self.grade=grade
+# class A:
+#     def __init__(self,grade):
+#         self.grade=grade
         
-    def getfunction1(self):
-        print(self.grade)
+#     def getfunction1(self):
+#         print(self.grade)
     
-class B(A):
-    def __init__(self,grade,section):
-           super().__init__(grade)
-           self.section=section
+# class B(A):
+#     def __init__(self,grade,section):
+#            super().__init__(grade)
+#            self.section=section
 
 
-    def getfunction2(self):
-        super().getfunction1()
-        print(self.section)
+#     def getfunction2(self):
+#         super().getfunction1()
+#         print(self.section)
 
-
-
-class C(B):
-    def __init__(self,grade,section):
-        super(). __init__(grade,section)
-    def getfunction3(self):
-        super().getfunction2()
+# class C(B):
+#     def __init__(self,grade,section):
+#         super(). __init__(grade,section)
+#     def getfunction3(self):
+#         super().getfunction2()
         
-student_details= C("A", "B section") 
-student_details.getfunction3()       
-
-         
-          
+# student_details= C("A", "B section") 
+# student_details.getfunction3()         
         
 
       

@@ -43,28 +43,28 @@
 # obj1.func2()
 # obj2.func1()
 # obj2.func3() 
-# 
+
 
 
 #Create a Teacher class, a Student class that both inherit from Person and an Assistant class that inherit from both
-class person:
-    def func1(self):
-        print("I am person ")
-class teacher(person):
-    def func2(self):
-        print("Iam teacher") 
-class student(person):
-    def func3(self):
-        print("Iam student")
-class assistant(teacher,student):
-    def func4(self):
-        print("Iam assistant")
-        print("Iam teacher")
-        print("Iam student" )
-#obj1=person()
-#obj1.func1()
-obj4=assistant()
-obj4.func4()                               
+# class person:
+#     def func1(self):
+#         print("I am person ")
+# class teacher(person):
+#     def func2(self):
+#         print("Iam teacher") 
+# class student(person):
+#     def func3(self):
+#         print("Iam student")
+# class assistant(teacher,student):
+#     def func4(self):
+#         print("Iam assistant")
+#         print("Iam teacher")
+#         print("Iam student" )
+# #obj1=person()
+# #obj1.func1()
+# obj4=assistant()
+# obj4.func4()                               
 
 
 
