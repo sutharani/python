@@ -20,17 +20,21 @@ student=[{ "Name":"ram",
             "course":"c++"
              
          }]
-#res=col.insert_many(student)
-#print(res.inserted_ids)
+# res=col.insert_many(student)
+# print(res.inserted_ids)
 
-#update
+# update
 # previous_data={"age":24}
 # present_data={"$set":{"age":25}}
 # res=col.update_one(previous_data,present_data)
 
-#quary
-query={"name":"sutha"}
-res=col.find(query)
-for i in res:
-    print(i)
+# quary
+# query={"name":"sutha"}
+# res=col.find(query)
+# for i in res:
+#     print(i)
+
+# find
+# x=col.find_one()
+# print(x)
 

@@ -2,10 +2,7 @@
 # Create a function which acts as  two arguments function and also three arguments function
 # def add(x,y,z=0):
 #     return x+y+z
-
 # print(add(1,2,3))
-
-
 
 # Create a base class called shape with method area that return 0.
 # Create a derived class called rectangle that inherit from shape and overridws the area method to calculate and return the area of a rectangle.
@@ -22,11 +19,10 @@
 # rect.area()
            
 
-
 # Create a base class called person with constructor that takes a name as a parameter.
 # Create a derived called student that inherits from person has constructor that takes a parameter called grade.
 # Write a method in student to display name and grade of student. Use super keywords to achieve this.
-# class person:##########################################
+# class person:
 #     def __init__(self,name):
 #         self.name=name
 # class student(person):

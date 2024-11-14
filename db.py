@@ -20,8 +20,3 @@ student=[{"name":"dhibi",
 # print(res.inserted_ids)
 
 
-def add(x,y,z=0):
-    return x+y+z
-
-print(add(1,2,3))
-
